@@ -31,7 +31,7 @@ public class UniqueElementsInArray {
 	
 	
 	// find the Unique Number in the array using HashMap
-	public static void sortArrayUsingHashMap(int[] arr) {
+	public static void UniqueArrayUsingHashMap(int[] arr) {
 		
 		// Create an hash  map 
 		HashMap<Integer, Integer> hashmap = new HashMap<Integer, Integer>();
@@ -44,6 +44,8 @@ public class UniqueElementsInArray {
 		// use HashMap.keyset() for printing all the key of the HashMap using the keySet() method. 
 		System.out.println(hashmap.keySet());
 		
-		
 	}
+	
+	
+	
 }
