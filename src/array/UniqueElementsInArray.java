@@ -26,14 +26,24 @@ public class UniqueElementsInArray {
 			i++;
 		}
 		
+		
+	}
+	
+	
+	// find the Unique Number in the array using HashMap
+	public static void sortArrayUsingHashMap(int[] arr) {
+		
 		// Create an hash  map 
-		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+		HashMap<Integer, Integer> hashmap = new HashMap<Integer, Integer>();
+		
 		// use the for loop to pull the elements of array in HashMap; 
-		for (int j = 0; j < arr.length; j++) {
-			map.put(arr[j], j);
+		for (int i = 0; i < arr.length; i++) {
+			hashmap.put(arr[i],i);
 		}
 		
-//		use HashMap.keyset() for printing all the key of the HashMap using the keySet() method. 
-		System.out.println(map.keySet());
+		// use HashMap.keyset() for printing all the key of the HashMap using the keySet() method. 
+		System.out.println(hashmap.keySet());
+		
+		
 	}
 }
