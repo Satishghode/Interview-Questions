@@ -5,6 +5,11 @@ import java.util.Scanner;
 
 //Find unique elements in array Java
 
+/* 
+ * the simplest way to get unique elements from the array is by putting all elements 
+ * of the array into hashmap's key and then print the keySet().
+ *  The hashmap contains only unique keys, so it will automatically remove that duplicate element from the hashmap keySet.
+ * */
 
 public class UniqueElementsInArray {
 	public static void main(String[] args) {
@@ -30,8 +35,5 @@ public class UniqueElementsInArray {
 		
 //		use HashMap.keyset() for printing all the key of the HashMap using the keySet() method. 
 		System.out.println(map.keySet());
-		
-		
-		
 	}
 }
