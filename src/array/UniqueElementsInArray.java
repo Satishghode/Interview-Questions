@@ -45,7 +45,5 @@ public class UniqueElementsInArray {
 		System.out.println(hashmap.keySet());
 		
 	}
-	
-	
-	
+		
 }
