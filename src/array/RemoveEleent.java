@@ -55,6 +55,20 @@ public class RemoveEleent {
 	
 	}
 	
+//	LeetCode 27.Remove Element  ANS 
+	
+	public static int removeElements(int[] nums , int val) {
+		int k = 0 ;
+		
+		for(int i = 0 ; i < nums.length ; i++) {
+			if(nums[i] != val ) {
+				nums[k++] = nums[i];
+			}
+		}
+		
+		return k;
+	}
+	
 	
 
 }
